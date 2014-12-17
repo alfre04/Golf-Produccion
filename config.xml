@@ -8,34 +8,34 @@
 
     <name>Club de Golf Chapultepec</name>
 
-    <description>
-      Procucción Club de Golf Chapultepec
-    </description>
+   <description>
+      Aplicación para uso exclusivo de los Socios del Club de Golf Chapultepec que cuenten con salida fija. 
+   </description>
 
-    <author href="http://llorenteycuenca.com" email="vvalverde@llorenteycuenca.com">
-        Victor Valverde
-    </author>
-	
-      <icon src="icon.png" /> 
+   <author href="http://llorenteycuenca.com" email="vvalverde@llorenteycuenca.com">
+      Victor Valverde
+   </author>
+   
+   <icon src="icon.png" /> 
     
-    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
-    <icon src="img/ios/cgch.png" gap:platform="ios" width="144" height="144" />
-    
-    <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="320"  height="480"  />
-    <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="640"  height="960"  />
-    <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="640"  height="1136" />
-    <gap:splash src="img/ios/cgch-1024.png" gap:platform="ios" width="1024" height="748"  />
-    <gap:splash src="img/ios/cgch-1024.png" gap:platform="ios" width="768"  height="1004" />
-    <!-- retina iPad -->
-    <gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="2048" height="1496" />
-    <gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="1536" height="2008" />
+   <!-- retina iPad support: PhoneGap 2.5.0+ only -->
+   <icon src="img/ios/cgch.png" gap:platform="ios" width="144" height="144" />
+   
+   <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="320"  height="480"  />
+   <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="640"  height="960"  />
+   <gap:splash src="img/ios/cgch.png" gap:platform="ios" width="640"  height="1136" />
+   <gap:splash src="img/ios/cgch-1024.png" gap:platform="ios" width="1024" height="748"  />
+   <gap:splash src="img/ios/cgch-1024.png" gap:platform="ios" width="768"  height="1004" />
+   <!-- retina iPad -->
+   <gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="2048" height="1496" />
+   <gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="1536" height="2008" />
 
-    <!--
-        If you do not want any permissions to be added to your app, add the
-        following tag to your config.xml; you will still have the INTERNET
-        permission on your app, which PhoneGap requires.
-    -->
-    <preference name="permissions"                value="none"/>
+   <!--
+       If you do not want any permissions to be added to your app, add the
+       following tag to your config.xml; you will still have the INTERNET
+       permission on your app, which PhoneGap requires.
+   -->
+   <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"                 value="3.6.3" />          <!-- all: current version of PhoneGap -->
