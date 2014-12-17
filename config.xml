@@ -17,6 +17,27 @@
    </author>
    
    <icon src="icon.png" /> 
+
+
+   <!-- iPhone 6 / 6+ -->
+   <icon src="icon-60@3x.jpg" gap:platform="ios" width="180" height="180" />
+
+   <!-- iPhone / iPod Touch  -->
+   <icon src="icon-60.jpg" gap:platform="ios" width="60" height="60" />
+   <icon src="icon-60@2x.jpg" gap:platform="ios" width="120" height="120" />
+
+   <!-- iPad -->
+   <icon src="icon-76.jpg" gap:platform="ios" width="76" height="76" />
+   <icon src="icon-76@2x.jpg" gap:platform="ios" width="152" height="152" />
+
+   <!-- Settings Icon -->
+   <icon src="icon-small.jpg" gap:platform="ios" width="29" height="29" />
+   <icon src="icon-small@2x.jpg" gap:platform="ios" width="58" height="58" />
+
+   <!-- Spotlight Icon -->
+   <icon src="icon-40.jpg" gap:platform="ios" width="40" height="40" />
+   <icon src="icon-40@2x.jpg" gap:platform="ios" width="80" height="80" />
+
     
    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
    <icon src="img/ios/cgch.png" gap:platform="ios" width="144" height="144" />
