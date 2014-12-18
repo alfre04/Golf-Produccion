@@ -3,8 +3,8 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "clubdegolf"
-        version   = "1.0.0">
+        id        = "com.golfchapultepec"
+        version   = "1.0.1">
 
     <name>Club de Golf Chapultepec</name>
 
@@ -79,8 +79,8 @@
    <!--<gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="2048" height="1496" />-->
    <gap:splash src="res/screen/ios/1536x2008.png" gap:platform="ios" width="1536" height="2008" />
    
-   <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-      <string>100</string>
+   <gap:config-file platform="ios" parent="MinimumOSVersion">
+      <string>6.0</string>
    </gap:config-file>
    
    <access origin="*"/>
